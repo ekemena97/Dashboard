@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Dashbaord</title>
+        <link rel="stylesheet" href="assests/css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="header">
+            <div class="logo">
+                <i class="ri-menu-line icon-2 menu"></i>
+                <h2>Med <span>Ex</span></h2>
+            </div>
+            <div class="search--notification--profile">
+                <div class="search">
+                    <input type="text" placeholder="Enter your keywords">
+                    <!--<button><i class="ri-search-2-line"</button>-->
+                </div>
+                <div class="notification-profile"></div>
+                <div class="picon lock">
+                    <i class="ri-lock-line"></i>
+                </div>
+                <div class="picon bell">
+                    <i class="ri-notification-2-line"></i>
+                </div>
+                <div class="picon chat">
+                    <i class="ri-wechat-2-line"></i>
+                </div>
+                <div class="picon profile">
+                    <img src="assests/images/imansyah-muhamad-putera-n4KewLKFOZw-unsplash.jpg" alt="img"
+                     width="200px" height="200px">
+                </div>
+            </div>
+        </section>
+        <section class="main">
+            <div class="sidebar">
+                
+                <ul class="sidebar--items">
+                    <li>
+                        <a href="#">
+                            <span class="icon icon-1"><i class="i.ri-layout-grid-line"></i></span>
+                            <span class="sidebar--items"><i class="ri-dashboard-fill icon-2"></i>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon icon-1"><i class="i.ri-layout-grid-line"></i></span>
+                            <span class="sidebar--items"><i class="ri-calendar-2-line icon-2"></i>Schedule</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon icon-1"><i class="i.ri-layout-grid-line"></i></span>
+                            <span class="sidebar--items"><i class="ri-user-2-line card--icon--lg icon-2"></i>Relaible doctor</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon icon-1"><i class="i.ri-layout-grid-line"></i></span>
+                            <span class="sidebar--items"><i class="ri-women-line icon-2"></i>Patients</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon icon-1"><i class="i.ri-layout-grid-line"></i></span>
+                            <span class="sidebar--items"><i class="ri-bar-chart-line icon-2"></i>Activity</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon icon-1"><i class="i.ri-layout-grid-line"></i></span>
+                            <span class="sidebar--items"><i class="ri-customer-service-2-line icon-2"></i>Support</span>
+                        </a>
+                    </li>
+                </ul> 
+                <ul class="sidebar--bottom--items">
+                    <li>
+                        <a href="#">
+                            <span class="icon icon-2"><i class="i.ri-layout-grid-line"></i></span>
+                            <span class="sidebar--items"><i class="ri-settings-2-line icon-2"></i>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon icon-2"><i class="ri-logout-box-r-line"></i></span>
+                            <span class="sidebar--items">Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <div class="overview">
+                    <div class="title">
+                        <h2 class="section--title">Overview</h2>
+                        <select name="date" id="date" class="dropdown">
+                            <option value="today">Today</option>
+                            <option value="Yesterday">Yesterday</option>
+                            <option value="Lastweek">Lastweek</option>
+                            <option value="Last-Month">Last-Month</option>
+                            <option value="Alltime">Alltime</option>
+                        </select>
+                    </div>
+                    <div class="cards">
+                        <div class="card card-1">
+                            <div class="card--data">
+                                <div class="card--content">
+                                    <h5 class="card--title">Total Doctors</h5>
+                                    <h1>30</h1>
+                                </div>
+                                <i class="ri-user-2-line card--icon--lg1"></i>
+                            </div>
+                            <div class="card--stats">
+                                <span><i class="ri-bar-chart-fill card--icon stat--icon">65%</i></span>
+                                <span><i class="ri-arrow-up-s-fill card--icon up-arrow">10</i></span>
+                                <span><i class="ri-arrow-down-s-fill card--icon down-arrow">5</i></span>
+                            </div>
+                        </div>
+                        <div class="card card-2">
+                            <div class="card--data">
+                                <div class="card--content">
+                                    <h5 class="card--title">Total Patients </h5>
+                                    <h1>100</h1>
+                                </div>
+                                <i class="ri-women-line card--icon--lg1"></i>
+                            </div>
+                            <div class="card--stats">
+                                <span><i class="ri-bar-chart-fill card--icon stat--icon">15%</i></span>
+                                <span><i class="ri-arrow-up-s-fill card--icon up-arrow">20</i></span>
+                                <span><i class="ri-arrow-down-s-fill card--icon down-arrow">2</i></span>
+                            </div>
+                        </div>
+                        <div class="card card-3">
+                            <div class="card--data">
+                                <div class="card--content">
+                                    <h5 class="card--title">Schedule </h5>
+                                    <h1>50</h1>
+                                </div>
+                                <i class="ri-calendar-2-line card--icon--lg1"></i>
+                            </div>
+                            <div class="card--stats">
+                                <span><i class="ri-bar-chart-fill card--icon stat--icon">24%</i></span>
+                                <span><i class="ri-arrow-up-s-fill card--icon up-arrow">15</i></span>
+                                <span><i class="ri-arrow-down-s-fill card--icon down-arrow">9</i></span>
+                            </div>
+                        </div>
+                        <div class="card card-4">
+                            <div class="card--data">
+                                <div class="card--content">
+                                    <h5 class="card--title">Beds Available</h5>
+                                    <h1>100</h1>
+                                </div>
+                                <i class="ri-hotel-bed-line card--icon--lg1"></i>
+                            </div>
+                            <div class="card--stats">
+                                <span><i class="ri-bar-chart-fill card--icon stat--icon">19%</i></span>
+                                <span><i class="ri-arrow-up-s-fill card--icon up-arrow">24</i></span>
+                                <span><i class="ri-arrow-down-s-fill card--icon down-arrow">19</i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors">
+                    <div class="title">
+                        <h2 class="section--title">Doctors</h2>
+                        <div class="doctors--right--btns">
+                            <select name="date" id="date" class="dropdown doctor--filter">
+                                <option> Filter</option>
+                                <option value="free"> Free</option>
+                                <option value="Schedule">Schedule</option>
+                            </select>
+                           <button class="add"><i class="ri-add-line"></i>Add Doctor</button>
+                        </div>
+                    </div>
+                    <div class="doctors--cards">
+                        <a href="#" class="doctor--card">
+                            <div class="img--box--cover">
+                                <div class="img--box">
+                                    <img src="assests/images/doctor1.jpg" alt="">
+                                </div>
+                            </div>
+                            <p class="scheduled">Scheduled</p>
+                        </a>
+                        <a href="#" class="doctor--card">
+                            <div class="img--box--cover">
+                                <div class="img--box">
+                                    <img src="assests/images/doctor2.jpg" alt="">
+                                </div>
+                            </div>
+                            <p class="free">Free</p>
+                        </a>
+                        <a href="#" class="doctor--card">
+                            <div class="img--box--cover">
+                                <div class="img--box">
+                                    <img src="assests/images/doctor3.jpg" alt="">
+                                </div>
+                            </div>
+                            <p class="free">Free</p>
+                        </a>
+                        <a href="#" class="doctor--card">
+                            <div class="img--box--cover">
+                                <div class="img--box">
+                                    <img src="assests/images/doctor4.jpg" alt="">
+                                </div>
+                            </div>
+                            <p class="scheduled">Scheduled</p>
+                        </a>
+                        <a href="#" class="doctor--card">
+                            <div class="img--box--cover">
+                                <div class="img--box">
+                                    <img src="assests/images/doctor5.jpg" alt="">
+                                </div>
+                            </div>
+                        
+                            <p class="free">Free</p>
+                        </a>
+                        <a href="#" class="doctor--card">
+                            <div class="img--box--cover">
+                                <div class="img--box">
+                                    <img src="assests/images/doctor6.jpg" alt="">
+                                </div>
+                            </div>
+                            <p class="scheduled">Scheduled</p>
+                        </a>
+                        <a href="#" class="doctor--card">
+                            <div class="img--box--cover">
+                                <div class="img--box">
+                                    <img src="assests/images/doctor7.jpg" alt="">
+                                </div>
+                            </div>
+                            <p class="free">Free</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="recent--patients">
+                    <div class="title">
+                        <h2 class="section--title">Recent Patients</h2>
+                        <button class="add"><i class="ri-add-line"></i>Add Doctor</button>
+                    </div>
+                    <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                             <th>Name</th>
+                             <th>Date In</th>
+                             <th>Age</th>
+                             <th>Gender</th>
+                             <th>Weight</th>
+                             <th>Status</th>
+                             <th>Settings</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Aanuoluwapo Dare</td>
+                                <td>30/07/2023</td>
+                                <td>24</td>
+                                <td>Female</td>
+                                <td>56kg</td>
+                                <td class="pending">pending</td>
+                                <td><span><i class="ri-edit-line edit"></i><i class="ri-delete-bin-line delete"></i></span></td>
+                            </tr>
+                            <tr>
+                                <td>Moses Ifori</td>
+                                <td>15/04/2023</td>
+                                <td>84</td>
+                                <td>Male</td>
+                                <td>70kg</td>
+                                <td class="confirmed">Confirmed</td>
+                                <td><span><i class="ri-edit-line edit"></i><i class="ri-delete-bin-line delete"></i></span></td>
+                            </tr>
+                            <tr>
+                                <td>Esephni Elenwa</td>
+                                <td>15/04/2023</td>
+                                <td>25</td>
+                                <td>Female</td>
+                                <td>63kg</td>
+                                <td class="pending">pending</td>
+                                <td><span><i class="ri-edit-line edit"></i><i class="ri-delete-bin-line delete"></i></span></td>
+                            </tr>
+                            <tr>
+                                <td>Emeka Ike</td>
+                                <td>12/08/2022</td>
+                                <td>47</td>
+                                <td>Male</td>
+                                <td>72kg</td>
+                                <td class="pending">pending</td>
+                                <td><span><i class="ri-edit-line edit"></i><i class="ri-delete-bin-line delete"></i></span></td>
+                            </tr>
+                            <tr>
+                                <td>Adamu Yusuf</td>
+                                <td>21/03/2022</td>
+                                <td>56</td>
+                                <td>Male</td>
+                                <td>79kg</td>
+                                <td class="confirmed">Confirmed</td>
+                                <td><span><i class="ri-edit-line edit"></i><i class="ri-delete-bin-line delete"></i></span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+            </div>
+        </section>
+        <script src="js/main.js"></script>
+    </body>
+</html>
